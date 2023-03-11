@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FLOW-CYCLE</title>
+    <link rel="icon" href="images/icon.png" type="image/icon type">
+    <link rel="stylesheet" href="css_files/style.css">
+ <link rel="stylesheet" href="articlestyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+
+
+  <body class="body-back">
+    <div id="preloader" class="loader">
+      <img src="images/preloader.gif" alt="" />
+    </div>
+
+    <section class="navigation-bar">
+      <nav class="navbar navbar-expand-sm me-0 p-0" style="background-color: white;">
+        
+        <div class="container-fluid">
+          <a class="navbar-brand p-0"href="#"><img src="images/icon.png" height="70" alt="flow cycle logo"><p class="logoheading">FLOW CYCLE</p></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src="images/calendar.png" height="70" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="#"><img src="images/woman.png" height="70" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    
+      <section class="main-section">
+        <div class="container-fluid container">
+          <div class="row">
+            <div class="col-md-7 p-5 m-auto text-center justify-content-center align-items-center">
+              <div class="main-section-text " id="infobox">
+
+                <h2 class="main-head">Last Periods was on</h2>
+                <p>
+                  <input type="button" value="Log The Date" id="btn1">
+                </p>
+                <div id="cont"><input type=date id = "Day">
+                  <!-- Choose a date and enter in input field -->
+                <button id="btn" type="submit" onclick = "Calculator()"> Confirm </button>
+                </div>
+                <!-- <button id="btn" type="submit" onclick = "Calculator()"> Confirm </button>  -->
+                <br><br>
+                <h3 id="result"></h3>
+               
+                
+              </div>
+              <br><br>
+              <div id="result"></div>
+              <br><br>
+            </div>
+            <div class="col-md-5 ">
+              <div class="main-section-image">
+                <img src="images/bg.png" alt="" class="image "  >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+    <!-- <section>
+      <figure class="m-0">
+        <img class="backgroundimage" style="border-top-left-radius: 80px; border-bottom-left-radius: 80px;" src="images/bg.png" alt="">
+      </figure>
+    </section> -->
+      <!-- <main>
+          <section>
+            <div id="infobox">
+              <h2>Last Periods was on</h2>
+
+              <p>
+                  <input type="button" value="Log The Date" id="btn1">
+              </p>
+
+              <div id="cont"><input type=date id = "Day">-->
+                <!-- Choose a date and enter in input field -->
+              <!-- <button id="btn" type="submit" onclick = "Calculator()"> Confirm </button>
+              </div> 
+                <button id="btn" type="submit" onclick = "Calculator()"> Confirm </button> 
+                <br><br>
+                <h3 id="result"></h3>
+              </div>
+            </div>
+              <br><br>
+              <div id="result"></div>
+              <br><br>
+          </section>
+        </main> -->
+        
+          <section>
+            <footer>
+              <div class="footernav">
+                <a  onclick="myfunction()"><h2 id="p2" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="demo1 demo2 demo3">EXPLORE MORE <img src="images/arrowdown.png" height="75px" alt=""></h2></a>
+              </div>
+            </footer>
+          </section>
+
+        <section class="explore pt-1" id="myDIV">
+            <div class="container py-5"  >
+                <div class="row" id="expl">
+                  <h2>Explore More</h2>
+                </div>
+                
+                <div id="demo1" class="collapse multi-collapse">
+                  <div class="row p-5 g-4">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card h-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">About</h5>
+                          <p class="card-text">Before Starting !!! Let's Know about the motive and background of this Project...</p>
+                          <a href="about.html" class="btn">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card h-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">Exercises</h5>
+                          <p class="card-text mb-3">Let's know about some exercises to keep our body fit and fine...</p>
+                          <a href="exercises.html" class="btn ">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card h-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">FAQ</h5>
+                          <p class="card-text mb-3">Do You have any Query? <br> If yes !!! Do check FAQ's to get them resolved...</p>
+                          <a href="faq.html" class="btn">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card h-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">Health</h5>
+                          <p class="card-text mb-3">Come let's know about health care for girls & womens during their menstrual cycle..</p>
+                          <a href="hygiene.html" class="btn ">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card h-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3"> Menstrual Cycle</h5>
+                          <p class="card-text mb-3">Its all about knowing yourself better, and say goodbye to the unexpected dates!</p>
+                          <a href="menstrualcycle.html" class="btn ">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card h-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">Ovulation</h5>
+                          <p class="card-text mb-3"> Stay aware about the internal process and system of body. How it happens, etc...</p>
+                          <a href="ovulation.html" class="btn ">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card h-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">Pregnancy</h5>
+                          <p class="card-text mb-3">Pregnancies might be overwhelming and scary at the same time. Click explore to know everything about pregnancy...</p>
+                          <a href="pregnancy.html" class="btn ">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card h-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">Quiz</h5>
+                          <p class="card-text mb-3">Give yourself sometime and take the quiz to know more about your body...</p>
+                          <a href="quiz.html" class="btn ">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card h-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">Testimonial</h5>
+                          <p class="card-text mb-3">Know what our users say about us...</p>
+                          <a href="testimonial.html" class="btn ">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card h-100">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">Women Health</h5>
+                          <p class="card-text mb-3">Here's to all the women out there!Here's to how you can lead a better and healthy Lifestyle.</p>
+                          <a href="womenhealth.html" class="btn ">Explore</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+            </div>
+          </section>
+       <section id="news" class="collapse multi-collapse" id="demo3">
+          <form id="newsin">
+            <div>
+              <h1>Subscribe to our Newsletter</h1>
+              </br>
+              <p>Make sure you don't miss any updates regarding our latest articles</p>
+            </div>
+
+            <div id="info" style="background-color:white">
+              <label for="nameuser">Name :</label>
+              <input id="nameuser" type="text" placeholder="Name" name="name" required>
+              </br>
+              <label for="nameuser">Email :</label>
+              <input id="nameuser" type="text" placeholder="Email address" name="mail" required>
+              </br> 
+              <label>
+                <input id="checkedbox" type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+              </label>
+            </div>
+            <div>
+              <input id="submitnews" type="submit" value="Subscribe">
+            </div>
+          </form>
+        </section>
+
+        <div class="footer" id="about">
+          <footer>
+            <div class="waves" >
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+              <li>
+                <a href="https://jwoc.tech/" target="_blank"
+                  ><ion-icon name="logo-web-component"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/TeamJWOC" target="_blank"
+                  ><ion-icon name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/jwoc/" target="_blank"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/jwoc-jgec" target="_blank"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="mailto:contact.jwoc@gmail.com" target="_blank"
+                  ><ion-icon name="mail-outline"></ion-icon
+                ></a>
+              </li>
+            </ul>
+         
+            <p>Copyright © JWOC 2023 All Rights Reserved</p>
+            <p>
+              Created by
+              <a href="https://github.com/nisha331" target="_blank">Nisha Yadav</a> and
+              <a
+                href="https://github.com/nisha331/flow_cycle1/graphs/contributors" target="_blank"
+                >Team</a
+              >
+            </p>
+          </footer>
+        </div>
+    
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="js_files/index.js"></script>
+
+   <!--------------Preloader Script---------------->
+   <script>
+    var loader = document.querySelector(".loader");
+    window.addEventListener("load", vanish);
+    function vanish() {
+      loader.classList.add("disappear");
+    }
+  </script>
+  <script>
+  const showOnPx = 100;
+  const backToTopButton = document.querySelector(".back-to-top")
+
+ const scrollContainer = () => {
+   return document.documentElement || document.body;
+  };
+
+document.addEventListener("scroll", () => {
+if (scrollContainer().scrollTop > showOnPx) {
+ backToTopButton.classList.remove("hidden")
+} else {
+ backToTopButton.classList.add("hidden")
+}
+})
+const goToTop = () => {
+document.body.scrollIntoView({
+ behavior: "smooth",
+});
+};
+backToTopButton.addEventListener("click", goToTop)
+var loader = document.querySelector(".loader");
+  window.addEventListener("load", vanish);
+  function vanish() {
+  loader.classList.add("disppear");
+
+}
+function myfunction(){
+  let x=document.getElementById("p2");
+  const y=document.getElementById("myDIV");
+  const z=document.getElementById("about");
+  const t=document.getElementById("news")
+  console.log(x.ariaExpanded);
+  if(x.ariaExpanded=="true"){
+    y.style.display="block";
+    t.style.display="block";
+    z.style.display="block";
+  }
+  else{
+    t.style.display="none";
+    y.style.display="none";
+    z.style.display="none";
+    
+  }
+}
+</script>
+ 
+  
+
+</body>
+</html>
